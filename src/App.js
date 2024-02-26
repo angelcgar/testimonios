@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 // import logo from './logo.svg';
 import "./App.css";
-import Testimonio from "./componentes/Testimonios";
+import Testimonio from "./components/Testimonios";
 
 function App() {
   return (
