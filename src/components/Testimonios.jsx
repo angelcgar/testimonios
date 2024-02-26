@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
-import React from "react";
 import '../styles/Testimonio.css'
 
 // eslint-disable-next-line no-unused-vars
@@ -9,7 +7,7 @@ function Testimonio(props) {
     <div className="contenedor-testimonio">
       <img
         className="imagen-testimonio"
-        src={require(`../images/${props.imagen}.png`)}
+        src={(`/images/${props.imagen}.png`)}
         alt={(`Foto de ${props.nombre}`)}
       />
       <div className="contenedor-texto-testimonio">

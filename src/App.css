@@ -34,3 +34,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
+strong {
+  font-weight: bold;
+}
